@@ -22,8 +22,9 @@ function ReadStoriesPage() {
   const categories = [
     { name: 'Adventure', color: 'indigo' },
     { name: 'Romance', color: 'pink' },
+  
     // Add more categories as needed
-  ];
+  ]
 
   return (
     <div className="bg-gradient-to-r from-[#EF060F] to-[#b60cf2] min-h-screen p-8">

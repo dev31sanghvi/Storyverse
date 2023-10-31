@@ -1,4 +1,27 @@
 import React from 'react';
+const handleStorySubmission = async () => {
+  const title = document.getElementById('title').value;
+  const description = document.getElementById('description').value;
+  const category = document.getElementById('category').value;
+
+  const storyData = {
+    title,
+    description,
+    category,
+ 
+  };
+
+  try {
+    const response = await axios.post('/api/stories', storyData);
+    if (response.status === 201) {
+      
+      console.log('Story created successfully');
+    }
+  } catch (error) {
+
+    console.error('Story creation error: ', error.message);
+  }
+};
 
 function WriteStoriesPage() {
   return (
@@ -71,6 +94,15 @@ function WriteStoriesPage() {
                 >
                   <option value="fantasy">Fantasy</option>
                   <option value="romance">Romance</option>
+                  <option value="mystery">Mystery</option>
+                  <option value="sci-fi">Science Fiction</option>
+                  <option value="adventure">Adventure</option>
+  <option value="thriller">Thriller</option>
+  <option value="historical">Historical</option>
+  <option value="comedy">Comedy</option>
+  <option value="horror">Horror</option>
+  <option value="drama">Drama</option>
+  <option value="biography">Biography</option>   
                   {/* Add more categories */}
                 </select>
               </div>
@@ -84,12 +116,13 @@ function WriteStoriesPage() {
 
           {/* Submit Button */}
           <div className="text-center mt-8">
-            <button
-              type="button"
-              className="bg-indigo-700 hover:bg-indigo-800 text-white px-6 py-3 rounded-full font-semibold transition duration-300 ease-in-out animate__animated animate__bounce animate__delay-2s"
-            >
-              Publish Story
-            </button>
+          <button
+  type="button"
+  className="bg-indigo-700 hover:bg-indigo-800 text-white px-6 py-3 rounded-full font-semibold transition duration-300 ease-in-out animate__animated animate__bounce animate__delay-2s"
+  onClick={handleStorySubmission}
+>
+  Publish Story
+</button>
           </div>
         </div>
       </div>

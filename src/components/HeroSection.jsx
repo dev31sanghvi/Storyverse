@@ -21,7 +21,7 @@ function HeroSection() {
             transition={{ duration: 1, delay: 0.5 }}
             className="text-lg lg:text-xl text-white mb-8"
           >
-            Welcome to StoryVerse, where stories unfold and storytellers unite. Immerse yourself in captivating narratives across genres, or craft your own tales. Join a global community passionate about storytelling.
+            Welcome to Storyverse, where stories unfold and storytellers unite. Immerse yourself in captivating narratives across genres, or craft your own tales. Join a global community passionate about storytelling.
           </motion.p>
           <motion.a
             initial={{ opacity: 0 }}

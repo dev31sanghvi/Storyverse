@@ -2,7 +2,7 @@ import React from 'react';
 
 function LoginPage() {
   return (
-    <div className="bg-gradient-to-r from-purple-400 to-indigo-500 min-h-screen flex items-center justify-center">
+    <div className="bg-gradient-to-r from-[#ef060f] to-[#b60cf2] min-h-screen flex items-center justify-center">
       <div className="bg-white p-8 rounded-lg shadow-md w-96 transform hover:scale-105 transition-transform">
         <h2 className="text-3xl font-semibold text-center text-indigo-700 mb-6">Log In</h2>
         <form className="space-y-4">
@@ -34,7 +34,7 @@ function LoginPage() {
           </button>
         </form>
         <p className="mt-4 text-gray-600 text-center">
-          Don't have an account? <a href="/signup" className="text-indigo-700 hover:underline transition-colors duration-300">Sign up</a>
+          Dont have an account? <a href="/signup" className="text-indigo-700 hover:underline transition-colors duration-300">Sign up</a>
         </p>
       </div>
     </div>

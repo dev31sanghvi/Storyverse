@@ -22,29 +22,28 @@ function SeeYourStorySection() {
                             </svg>
                         </div>
                         <p className="mt-4 text-lg font-medium text-white">Icon 1 Text</p>
-                        <button className="mt-2 text-indigo-600 hover:text-[#682D8c] font-semibold hover:underline transition-colors duration-300">
+                        <button className="mt-2 text-white hover:text-black font-semibold hover:underline transition-colors duration-300">
                             Start Reading
                         </button>
                     </div>
 
                     {/* Icon 2 */}
-                    <div className="flex flex-col items-center space-y-4 transform hover:scale-105 transition-transform duration-300">
+                    {/* <div className="flex flex-col items-center space-y-4 transform hover:scale-105 transition-transform duration-300">
                         <div className="bg-white p-8 rounded-full shadow-lg hover:shadow-xl">
-                            {/* Replace with your icon */}
+
                             <svg
                                 className="w-20 h-20 text-purple-600"
                                 fill="none"
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
                             >
-                                {/* Icon SVG content */}
                             </svg>
                         </div>
                         <p className="mt-4 text-lg font-medium text-white">Icon 2 Text</p>
                         <button className="mt-2 text-purple-600 hover:text-purple-800 font-semibold hover:underline transition-colors duration-300">
                             Start Reading
                         </button>
-                    </div>
+                    </div> */}
 
                     {/* Icon 3 */}
                     <div className="flex flex-col items-center space-y-4 transform hover:scale-105 transition-transform duration-300">
@@ -60,20 +59,21 @@ function SeeYourStorySection() {
                             </svg>
                         </div>
                         <p className="mt-4 text-lg font-medium text-white">Icon 3 Text</p>
-                        <button className="mt-2 text-green-600 hover:text-green-800 font-semibold hover:underline transition-colors duration-300">
-                            Start Reading
+                        <button className="mt-2 text-white hover:text-black font-semibold hover:underline transition-colors duration-300">
+                            Start Writing
                         </button>
                     </div>
                 </div>
 
                 {/* Buttons */}
                 <div className="flex justify-center space-x-6 animate-fade-in-up">
-                    <button className="bg-transparent border border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white py-2 px-6 rounded-full font-semibold transition duration-300 ease-in-out transform hover:scale-105">
+                    <button className="bg-transparent border border- text-white hover:bg-indigo-600 hover:text-white py-2 px-6 rounded-full font-semibold transition duration-300 ease-in-out transform hover:scale-105">
                         Start Reading
                     </button>
-                    <button className="bg-transparent border border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white py-2 px-6 rounded-full font-semibold transition duration-300 ease-in-out transform hover:scale-105">
-                        Start Writing
+                    <button className="bg-transparent border border- text-white hover:bg-indigo-600 hover:text-white py-2 px-6 rounded-full font-semibold transition duration-300 ease-in-out transform hover:scale-105">
+                        Start Reading
                     </button>
+                   
                 </div>
             </div>
         </section>

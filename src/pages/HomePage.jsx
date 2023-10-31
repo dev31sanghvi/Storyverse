@@ -1,7 +1,7 @@
 // src/components/HomePage.js
 import React from 'react';
 import Navbar from '../components/Navbar';
-import FlowingTextSection from '../components/FlowingTextSection';
+// import FlowingTextSection from '../components/FlowingTextSection';
 import HeroSection from '../components/HeroSection';
 import SeeYourStorySection from '../components/SeeYourStorySection';
 import DiscoverSection from '../components/DiscoverSection';
@@ -18,7 +18,7 @@ function HomePage() {
     <>
     <div className="navbar bg-customBgColor">
             <Navbar />
-            <FlowingTextSection />
+            {/* <FlowingTextSection /> */}
             <HeroSection />
             <DiscoverSection />
             <SeeYourStorySection />
