@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-## Welcome to the Storyverse Open Source Project
+## Welcome to the Storyverse !
 
 Thank you for your interest in contributing to Storyverse! We appreciate your efforts and look forward to collaborating with you. Before you start contributing, please take a moment to read through our guidelines.
 
