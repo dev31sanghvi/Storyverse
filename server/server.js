@@ -9,7 +9,7 @@ mongoose.connect('mongodb://localhost/signupApp', {
   useUnifiedTopology: true,
 });
 
-// Create a Mongoose schema and model for user data
+
 const userSchema = new mongoose.Schema({
   email: String,
   password: String,
