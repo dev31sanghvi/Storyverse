@@ -12,7 +12,7 @@ Thank you for your interest in contributing to Storyverse! We appreciate your ef
 2. **Clone the repository:**
    - Clone the forked repository to your local machine using the following command:
      ```bash
-     git clone https://github.com/your-username/Storyverse.git
+     git clone https://github.com/dev31sanghvi/Storyverse.git
      ```
 
 3. **Create a branch:**
