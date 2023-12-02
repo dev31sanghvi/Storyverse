@@ -5,9 +5,6 @@
 
 Storyverse is a web platform dedicated to storytellers and readers. Share your stories with the world, explore captivating narratives across genres, and connect with a community of passionate storytellers.
 
-- [Live Demo](https://your-live-app-url.com)
-- [Report a Bug](https://github.com/yourusername/storyverse/issues)
-
 ## Table of Contents
 
 - [Features](#features)
