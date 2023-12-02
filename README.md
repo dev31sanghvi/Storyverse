@@ -13,7 +13,7 @@ Storyverse is a web platform dedicated to storytellers and readers. Share your s
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Contributing](#CONTRIBUTING.md)
 - [License](#license)
 
 ## Features
