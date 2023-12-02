@@ -31,7 +31,7 @@ Engage with a community of fellow storytellers and readers. Comment on stories, 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/storyverse.git
+   git clone https://github.com/dev31sanghvi/storyverse.git
    ```
 
 2. **Change to the Project Directory:**
