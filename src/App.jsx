@@ -16,12 +16,12 @@ function App() {
       <Router>
         <main>
           <Routes>
-            {/* Set up a route with an empty path to display HomePage */}
+           
             <Route path="/" element={<HomePage />} />
             <Route path="/" Component={SeeYourStorySection} />
             <Route path="/read-stories" element={<ReadStoriesPage />} />
             
-            {/* Define other routes for your application */}
+           
             {/* ... */}
           </Routes>
         </main>
