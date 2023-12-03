@@ -11,7 +11,7 @@ function SeeYourStorySection() {
                     {/* Icon 1 */}
                     <div className="flex flex-col items-center space-y-4 transform hover:scale-105 transition-transform duration-300">
                         <div className="bg-white p-8 rounded-full shadow-lg hover:shadow-xl">
-                            {/* Replace with your icon */}
+                            {/* icon */}
                             <svg
                                 className="w-20 h-20 text-indigo-600"
                                 fill="none"
@@ -27,28 +27,11 @@ function SeeYourStorySection() {
                         </button>
                     </div>
 
-                    {/* Icon 2 */}
-                    {/* <div className="flex flex-col items-center space-y-4 transform hover:scale-105 transition-transform duration-300">
-                        <div className="bg-white p-8 rounded-full shadow-lg hover:shadow-xl">
-
-                            <svg
-                                className="w-20 h-20 text-purple-600"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                            >
-                            </svg>
-                        </div>
-                        <p className="mt-4 text-lg font-medium text-white">Icon 2 Text</p>
-                        <button className="mt-2 text-purple-600 hover:text-purple-800 font-semibold hover:underline transition-colors duration-300">
-                            Start Reading
-                        </button>
-                    </div> */}
-
+                   
                     {/* Icon 3 */}
                     <div className="flex flex-col items-center space-y-4 transform hover:scale-105 transition-transform duration-300">
                         <div className="bg-white p-8 rounded-full shadow-lg hover:shadow-xl">
-                            {/* Replace with your icon */}
+                            {/* icon */}
                             <svg
                                 className="w-20 h-20 text-green-600"
                                 fill="none"
