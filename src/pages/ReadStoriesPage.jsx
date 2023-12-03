@@ -5,7 +5,7 @@ function ReadStoriesPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Fetch stories data from the API when the component mounts
+    // Fetching stories data from the json API 
     fetch('https://jsonplaceholder.typicode.com/posts')
       .then((response) => response.json())
       .then((data) => {
@@ -23,7 +23,7 @@ function ReadStoriesPage() {
     { name: 'Adventure', color: 'indigo' },
     { name: 'Romance', color: 'pink' },
   
-    // Add more categories as needed
+    // you can add more categories
   ]
 
   return (
@@ -44,7 +44,7 @@ function ReadStoriesPage() {
                   className="bg-white rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105"
                 >
                   <img
-                    src={story.coverImage} // Replace with the URL of the story's cover image
+                    src={story.coverImage} // URL of the story's cover image
                     alt={story.title}
                     className="w-full h-48 object-cover rounded-t-lg"
                   />
@@ -54,7 +54,7 @@ function ReadStoriesPage() {
                     <p className="text-gray-600 text-sm mb-2">Genre: {story.genre}</p>
                     <p className="mt-4 text-gray-700">{story.description}</p>
                     <a
-                      href={`/stories/${story.id}`} // Replace with the actual story URL
+                      href={`/stories/${story.id}`} // actual story URL is yet to be replaced
                       className="block text-indigo-700 hover:text-indigo-800 hover:underline mt-4 transition duration-300"
                     >
                       Read More
