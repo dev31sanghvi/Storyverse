@@ -1,5 +1,5 @@
 
-import './FlowingTextSection.css'; // Import your CSS file
+import './FlowingTextSection.css'; 
 
 function FlowingTextSection() {
   return (
