@@ -10,7 +10,7 @@ Storyverse is a web platform dedicated to storytellers and readers. Share your s
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#CONTRIBUTING.md)
+- [Contributing](#Contributing)
 - [License](#license)
 
 ## Features
@@ -71,7 +71,8 @@ Storyverse is open-source software distributed under the terms of the [MIT Licen
 
 You can also reach out to the maintainer on Twitter:
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/your-twitter-handle?style=social)](https://twitter.com/DevSanghvi13)
+[![Twitter Follow](https://img.shields.io/twitter/follow/DevSanghvi13?label=Follow%20%40DevSanghvi13&style=social)](https://twitter.com/DevSanghvi13)
 
 Feel free to connect, ask questions, or provide feedback via direct messages or mentions on Twitter.
+
 
