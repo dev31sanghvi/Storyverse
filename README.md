@@ -66,3 +66,12 @@ If you are interested in contributing to Storyverse, please read our [Contributi
 ## License
 
 Storyverse is open-source software distributed under the terms of the [MIT License](LICENSE).
+
+## Contact
+
+You can also reach out to the maintainer on Twitter:
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/your-twitter-handle?style=social)](https://twitter.com/DevSanghvi13)
+
+Feel free to connect, ask questions, or provide feedback via direct messages or mentions on Twitter.
+
