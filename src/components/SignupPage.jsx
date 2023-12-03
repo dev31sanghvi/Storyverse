@@ -107,7 +107,7 @@ function SignupPage() {
       {/* SVG background pattern */}
       <div className="absolute w-full h-full">
         <img
-          src="your-svg-pattern-url.svg" // Replace with your SVG pattern or background image
+          src="your-svg-pattern-url.svg" 
           alt="Background Pattern"
           className="w-full h-full object-cover"
         />
@@ -163,8 +163,6 @@ function SignupPage() {
               ))}
             </select>
           </div>
-
-          {/* Add more input fields for other user information as needed */}
           
           <button
             type="submit"
